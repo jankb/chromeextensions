@@ -1,0 +1,12 @@
+{
+  "name":"SensibleTime",
+    "description":"Change BitBuckets AM/PM to 24h",
+    "version":"1",
+    "manifest_version":3,
+    "content_scripts":[
+    {
+      "matches": ["https://dy-bitbucket/*"],
+      "js": ["fixTime.js"]
+    }
+    ]
+}
